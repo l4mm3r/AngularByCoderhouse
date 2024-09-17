@@ -1,12 +1,17 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-	selector: "app-main-wrapper",
-	template: `
-  <main>
-    <ng-content />
-  </main>
+  selector: 'app-main-wrapper',
+  template: `
+    <main>
+      <ng-content />
+    </main>
   `,
-	styles: ``,
+  styles: `
+    main {
+      display: flex;
+      margin-top: 50px;
+    }
+  `,
 })
 export class MainWrapperComponent {}

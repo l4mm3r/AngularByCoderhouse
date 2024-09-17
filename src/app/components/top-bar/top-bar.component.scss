@@ -1,0 +1,22 @@
+.navbarSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    margin-left: 40px;
+    font-weight: 200;
+    font-style: italic;
+  }
+
+  .logoAndUser {
+    display: flex;
+    align-items: center;
+  }
+
+  .navBarItems ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+}
